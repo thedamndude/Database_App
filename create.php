@@ -52,7 +52,7 @@ function validate()
 		var email=document.forms["create"]["email"].value;
 		var age=document.forms["create"]["age"].value;
 		var location=document.forms["create"]["location"].value;
-		var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+	
 		if(firstname=="")
 		{
 			alert("Enter Firstname");
